@@ -1,0 +1,32 @@
+/* DESKTOP */
+@media (min-width: 768px) {
+
+    /* Ocultar conteúdo específico para desktop */
+    .mobile-only {
+        display: none;
+    }
+}
+
+
+/* MOBILE */
+@media (max-width: 767px) {
+
+    /* Ocultar conteúdo específico para mobile */
+    .desktop-only {
+        display: none;
+    }
+
+    .img-bloco4-mobile{
+        height: 500px;
+    }
+
+    .align-bloco4-mobile {
+        margin: 0% 22% 0% 22%;
+    }
+
+    .divisor3-mobile{
+        width: 50%;
+        margin: 150px 0 80px 0px;
+}
+
+}

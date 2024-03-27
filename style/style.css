@@ -1,0 +1,143 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x:hidden ;
+}
+
+
+.img-right {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+
+
+.img-left {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar {
+    margin: 2vw;
+    position: static;
+}
+
+
+#login {
+    height: 18px;
+    margin-right: 50px;
+    color: rgb(107, 9, 146);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#signUp {
+    border-radius: 5px;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: transparent;
+    width: 90px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(41, 125, 153);
+}
+
+.text {
+    color: rgb(97, 97, 97);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.textFooter {
+    color: rgb(255, 255, 255);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.text2 {
+    color: rgb(97, 97, 97);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.title {
+    color: #6013a8;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+#discover {
+    margin-top: 10px;
+    background: linear-gradient(20deg, rgba(37, 39, 201, 1) 0%, rgba(100, 134, 249, 1) 50%, rgba(21, 221, 255, 1) 100%);
+    border-radius: 7px;
+    border: 1px solid rgb(226, 226, 226);
+    width: 110px;
+    height: 35px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+}
+
+
+.steps {
+    height: 200px;
+}
+
+
+.underline {
+    color: #6013a8;
+    font-size: bold;
+    text-decoration: none;
+    padding-bottom: 5px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    background: url(../img/linha-reta-teste-programador2.png) bottom repeat-x;
+}
+
+#banner4 {
+    background-image: url(../img/img-fundo-4-teste-programador.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+
+.arrow {
+    height: 50px;
+    margin-left: 70px;
+}
+
+#footer {
+    background-image: url(../img/fundo-footer-teste-programador.png.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+
+
+li {
+    list-style: none;
+    text-decoration: none;
+} */

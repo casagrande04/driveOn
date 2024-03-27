@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.align-bloco2 {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.text {
+    color: rgb(97, 97, 97);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.text2 {
+    color: rgb(97, 97, 97);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.title {
+    color: #6013a8;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
+.divisor{
+    width: 50%!important;
+}
+
+#espaco{
+    margin-bottom: 100px;
+}
+
+.steps {
+    height: 200px;
+}
+

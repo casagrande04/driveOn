@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.text {
+    color: rgb(97, 97, 97);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.text2 {
+    color: rgb(97, 97, 97);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.textLink {
+    color: rgb(0, 110, 255);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-decoration: none;
+    transition: font-size 0.5s;
+}
+
+.title {
+    color: #6013a8;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
+.banner4 {
+    background-image: url(../img/img-fundo-4-teste-programador.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+.divisor4 {
+    width: 30%;
+    margin: 180px 0 80px 0px;
+}
+
+.clay-store {
+    height: 40px;
+    transition: height 0.5s;
+}
+
+.clay-store:hover{
+    height: 50px;
+}
+
+.play-app {
+    height: 40px;
+    transition: height 0.5s;
+}
+
+.play-app:hover{
+    height: 50px;
+}
+
+.align-arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 0px 80px 250px;
+}
+
+.divisor-start {
+    width: 30%;
+}
+
+.linkColor {
+    color: rgb(107, 9, 146);
+}
+
+.arrow {
+    height: 50px;
+    transition: size 0.5s;
+    margin-left: 70px;
+}
+
+.arrow:hover {
+    margin-left: 80px;
+}
+
+
+.arrow:hover, .arrow:not(:hover) {
+    transition: margin-left 0.5s;
+}

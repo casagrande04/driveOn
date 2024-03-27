@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.align-footer {
+    padding: 9vw;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.footer-img {
+    background-image: url(../img/fundo-footer-teste-programador.png.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.text {
+    color: rgb(97, 97, 97);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.text2 {
+    color: rgb(97, 97, 97);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.textFooter {
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    text-decoration: none;
+    line-height: 2em;
+}
+
+.textFooter-title{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.textLink {
+    color: rgb(0, 110, 255);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-decoration: none;
+    transition: font-size 0.5s;
+}
+
+
+.line-footer{
+    color: white;
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line-footer2{
+    margin-top:1vw;
+    display: flex;
+    justify-content: space-around;
+}

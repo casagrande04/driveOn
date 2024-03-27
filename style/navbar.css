@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.logo-align {
+    margin-left: 40px !important;
+}
+
+.logo {
+    padding-right: 50px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar {
+    margin: 2vw;
+    position: static;
+}
+
+.navbar-items {
+    padding-right: 50px!important;
+    transition: font-size 0.5s;
+}
+
+.navbar-items:hover {
+    font-size: 1.1em;
+}
+
+
+.navbar-items:hover, .navbar-items:not(:hover) {
+    transition: font-size 0.5s;
+}
+
+
+.login-icon {
+    padding-right: 15px;
+    height: 20px;
+}
+
+.text {
+    color: rgb(97, 97, 97);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+#login {
+    height: 18px;
+    margin-right: 50px;
+    color: rgb(107, 9, 146);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#signUp {
+    border-radius: 5px;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: transparent;
+    width: 90px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    color: rgb(41, 125, 153);
+}

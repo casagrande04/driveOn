@@ -1,0 +1,56 @@
+/* DESKTOP */
+@media (min-width: 768px) {
+
+    /* Ocultar conteúdo específico para desktop */
+    .mobile-only {
+        display: none;
+    }
+}
+
+
+/* MOBILE */
+@media (max-width: 767px) {
+
+    /* Ocultar conteúdo específico para mobile */
+    .desktop-only {
+        display: none;
+    }
+
+    .bg-bloco3-mobile{
+        height: 500px;
+    }
+
+    .divisor2-mobile{
+            width: 27%;
+            margin: 150px 0 80px 22%;
+    }
+
+    .align-bloco3-mobile{
+        margin: 0% 22% 0% 22%;
+    }
+
+
+    #myBtn-mobile {
+        position: fixed;
+        bottom: 10px;
+        right: 0px;
+        z-index: 99;
+        border: none;
+        padding: 5px;
+        outline: none;
+        cursor: pointer;
+        border-radius: 60px;
+        background-color: #6013a800;
+        transition: background-color;
+      }
+      
+      #myBtn-mobile:hover {
+        background-color: #6013a821;
+        transition: 0.5s;
+      }
+    
+      #Btn-transparency{
+        opacity: 60%;
+        height: 40px;
+      }
+}
